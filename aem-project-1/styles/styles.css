@@ -1,0 +1,71 @@
+@import url("./aem-grid/aem-grid.css");
+@import url("./global/variable.css");
+@import url("./global/global.css");
+@import url("./global/button.css");
+
+/* Importing styles component */
+
+@import url("./sections/header.css");
+@import url("./sections/hero-banner.css");
+@import url("./sections/offer-banner.css");
+@import url("./sections/secondry-banner.css");
+@import url("./sections/product-teaser.css");
+@import url("./sections/teaser.css");
+@import url("./sections/feature-banner.css");
+@import url("./sections/news-letter.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 20px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+section{
+  padding: 40px 0;
+}
+
+.wrapper {
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box {
+  width: calc(100% - 130px);
+  height: 40px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  section{
+    padding: 20px 0;
+  }
+}

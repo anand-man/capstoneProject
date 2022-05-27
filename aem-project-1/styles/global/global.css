@@ -1,0 +1,53 @@
+.heading-1 {
+  font-size: var(--font-size-48);
+  line-height: var(--line-spacing-58);
+}
+.heading-2 {
+  font-size: var(--font-size-40);
+  line-height: var(--line-spacing-48);
+}
+
+.heading-3 {
+  font-size: var(--font-size-32);
+  line-height: var(--line-spacing-38);
+}
+
+.heading-4 {
+  font-size: var(--font-size-28);
+  line-height: var(--line-spacing-30);
+}
+
+.heading-6{
+  font-size: var(--font-size-14);
+  line-height: var(--line-spacing-17);
+}
+
+.badge{
+  font-weight: 600;
+  font-size: var(--font-size-12);
+  color: var(--oxford-blue-354e57);
+  padding: 9px 11px;
+  background-color: var(--alabasterr-f7f7f7);
+}
+.badge.bg-white{
+  background-color: var(--white-ffffff);
+}
+.badge.offer{
+  color: var(--cape-palliser-a67744);
+}
+.bg-light-sky{
+  background-color: var(--light-sky-eef3f4);
+}
+.bg-deep-sky{
+  background-color: var(--deep-sky-e0e3e8);
+}
+
+.bg-como-547665{
+  background-color: var(--como-547665);
+}
+.bg-athens-gray{
+  background-color: var(--athens-gray-eef2f4);
+}
+.bg-white{
+  background-color: var(--white-ffffff);
+}
