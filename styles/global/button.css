@@ -1,0 +1,53 @@
+.btn-default{
+  display: inline-block;
+  font-size: var(--font-size-14);
+  line-height: var(--line-spacing-17);
+  padding: 11px 40px;
+  border: 1px solid var(--oxford-blue-354e57);
+  color: var(--rangitoto-2e2e22);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+}
+
+.btn-default:hover{
+  background-color: var(--white-ffffff);
+}
+.btn-default.btn-white{
+  border: 1px solid var(--white-ffffff);
+  color: var(--beige-f7f5e6);
+}
+.btn-default.btn-white:hover{
+  color: var(--black-000000);
+}
+
+.btn-with-icon {
+  position: relative;
+  display: inline-block;
+  font-size: var(--font-size-12);
+  color: var(--rangitoto-2e2e22);
+  line-height: 15px;
+  padding: 8px 30px;
+  min-width: 251px;
+  text-align: center;
+  border: 1px solid var(--oxford-blue-354e57); 
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+}
+.btn-with-icon span{
+  position: relative;
+}
+.btn-with-icon:hover{
+  background-color: var(--white-ffffff);
+}
+.btn-with-icon span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  left: -16px;
+  top: 0;
+  background: url("../../images/cart-outline.svg") no-repeat;
+}
