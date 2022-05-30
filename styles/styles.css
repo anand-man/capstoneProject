@@ -13,6 +13,8 @@
 @import url("./sections/teaser.css");
 @import url("./sections/feature-banner.css");
 @import url("./sections/news-letter.css");
+@import url("./sections/image-tiles.css");
+
 
 * {
   margin: 0;
