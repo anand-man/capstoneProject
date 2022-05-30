@@ -51,3 +51,9 @@
 .bg-white{
   background-color: var(--white-ffffff);
 }
+.bg-f7f7f7f {
+  background-color: var(--alabasterr-f7f7f7);
+}
+.padding-0{
+  padding: 0;
+}
