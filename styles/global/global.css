@@ -14,7 +14,7 @@
 
 .heading-4 {
   font-size: var(--font-size-28);
-  line-height: var(--line-spacing-30);
+  line-height: var(--line-spacing-34);
 }
 
 .heading-6{
@@ -41,7 +41,6 @@
 .bg-deep-sky{
   background-color: var(--deep-sky-e0e3e8);
 }
-
 .bg-como-547665{
   background-color: var(--como-547665);
 }
