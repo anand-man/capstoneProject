@@ -50,4 +50,5 @@
   left: -16px;
   top: 0;
   background: url("../../images/cart-outline.svg") no-repeat;
+  transition: all ease-out 0.3s;
 }

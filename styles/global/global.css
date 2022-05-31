@@ -11,7 +11,10 @@
   font-size: var(--font-size-32);
   line-height: var(--line-spacing-38);
 }
-
+.heading-5 {
+  font-size: var(--font-size-18);
+  line-height: var(--line-spacing-24);
+}
 .heading-4 {
   font-size: var(--font-size-28);
   line-height: var(--line-spacing-34);
