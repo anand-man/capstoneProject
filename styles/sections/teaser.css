@@ -7,9 +7,6 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-.teaser.img-left .bg-img{
-  justify-content: flex-start;
-}
 .teaser .bg-img .bg-with-color{
   width: 50%;
 }
@@ -53,7 +50,15 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-
+.teaser.img-left .column-wrapper{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.teaser.img-left .bg-img{
+  justify-content: flex-start;
+}
 .teaser.img-left .content-wrapper p{
   color: var(--rangitoto-2e2e22);
 }
