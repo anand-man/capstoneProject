@@ -22,6 +22,11 @@
   color: var(--black-000000);
 }
 
+.btn-default.btn-light-black{
+  border-color: var(--light-palliser-956a53);
+  color: var(--rangitoto-2e2e22);
+}
+
 .btn-with-icon {
   position: relative;
   display: inline-block;

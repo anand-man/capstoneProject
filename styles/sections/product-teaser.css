@@ -1,3 +1,6 @@
+.product-teaser.no-badge .badge{
+  display: none;
+}
 .product-teaser .text-right{
   text-align: right;
 }
@@ -12,8 +15,9 @@
   width: calc(25% - 20px) !important;
   max-width: 251px;
   margin-right: 28px;
+  margin-bottom: 90px;
 }
-.product-teaser .cards:last-child{
+.product-teaser .cards:nth-of-type(4n){
   margin-right: 0;
 }
 .product-teaser .content-wrapper {
@@ -52,10 +56,10 @@
   height: 346px;
   overflow: hidden;
 }
-.product-teaser .img-wrapper .hover-img{
+.product-teaser.img-change-on-hover .img-wrapper .hover-img{
   height: 100%;
 }
-.product-teaser .img-wrapper .hover-img img{
+.product-teaser.img-change-on-hover .img-wrapper .hover-img img{
   object-fit: cover;
 }
 .product-teaser .img-wrapper img{
@@ -64,7 +68,7 @@
   object-position: center bottom;
   object-fit: none;
 }
-.product-teaser .img-wrapper:hover > img{
+.product-teaser.img-change-on-hover .img-wrapper:hover > img{
   display: none;
 }
 .product-teaser .cards:last-of-type .content-wrapper{
@@ -113,14 +117,17 @@
   .product-teaser .img-wrapper img{
     object-fit: contain;
   }
-  .product-teaser.btn-width-increase .btn-with-icon:hover{
+  .product-teaser.img-change-on-hover .img-wrapper .hover-img{
+    display: none;
+  }
+  .product-teaser .btn-with-icon:hover{
     min-width: 104%;
   }
-  .product-teaser.btn-width-increase .btn-with-icon span::before{
+  .product-teaser .btn-with-icon span::before{
     width: 0;
     height: 0;
   }
-  .product-teaser.btn-width-increase .btn-with-icon:hover span::before{
+  .product-teaser .btn-with-icon:hover span::before{
     width: 13px;
     height: 9px;
   }
