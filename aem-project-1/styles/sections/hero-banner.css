@@ -100,7 +100,6 @@ section.hero-banner{
   }
   .hero-banner .content-wrapper {
     width: 100%;
-    /* padding: 50px 0 0 ; */
   }
   .hero-banner .inner-wrapper img{
     width: 100%;
@@ -112,13 +111,14 @@ section.hero-banner{
     width: 100%;
   }
   .hero-banner .bg-img{
-    top: 12%;
-    right: -32%;
-    width: 222%;
-    display: flex;
-    flex-wrap: nowrap;
+    top: -20%;
+    right: -49%;
+    width: 267%;
   }
   .hero-banner h1{
     font-size: 42px;
+  }
+  .hero-banner .content-wrapper{
+    padding: 20px 0 0;
   }
 }
