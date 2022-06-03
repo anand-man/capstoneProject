@@ -8,6 +8,10 @@ navLink.forEach((item) =>{
     if(e.target.innerText != undefined){
       headWrap.classList.remove("active");
       document.body.classList.remove("menu-mobile");
+      navLink.forEach((item) => {
+        item.classList.remove("selected");
+      })
+      this.classList.add("selected");
     }
 })})
 headerBtn.addEventListener("click", () => {
@@ -21,11 +25,3 @@ window.onscroll = function () {
     header.classList.remove("fixed");
   }
 };
-
-// const testObj = {
-//   backgroundColor: "#000000",
-//   padding: "50px 0", 
-//   margin: "50px 0"
-// }
-
-// Object.assign(header.style, testObj)
