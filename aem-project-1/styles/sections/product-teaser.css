@@ -164,6 +164,9 @@
   .product-teaser.img-change-on-hover .img-wrapper .hover-img{
     display: none;
   }
+  .product-teaser.img-change-on-hover .img-wrapper:hover > img{
+    display: block;
+  }
   .product-teaser .btn-with-icon:hover{
     min-width: 104%;
   }
