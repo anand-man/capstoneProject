@@ -36,8 +36,7 @@
   line-height: 20px;
 }
 .news-letter .input-box{
-  border: 1px solid var(--cape-palliser-a67744);
-  border-right: none;
+  border: none;
 }
 .news-letter .input-wrapper{
   display: flex;
@@ -46,19 +45,18 @@
   align-items: center;
   max-width: 399px;
   margin-left: auto;
+  border: 1px solid var(--cape-palliser-a67744);
 }
 .news-letter button{
   color: var(--white-ffffff);
-  height: 40px;
+  height: 38px;
   width: 130px;
-  border: 1px solid var(--cape-palliser-a67744);
-  border-left: none;
+  border: none;
   background: var(--cape-palliser-a67744) 0% 0% no-repeat padding-box;
   cursor: pointer;
   transition: all ease-out 0.3s;
 }
 .news-letter button:hover{
-  border-color:#9A6B39;
   background: #9A6B39 0% 0% no-repeat padding-box;
 }
 
