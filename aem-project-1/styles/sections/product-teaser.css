@@ -89,18 +89,18 @@
   object-position: initial;
 }
 
-.product-teaser::-webkit-scrollbar {
+section.product-teaser::-webkit-scrollbar {
   width: 5px;
   height: 3px;
 }
-.product-teaser::-webkit-scrollbar-track {
+section.product-teaser::-webkit-scrollbar-track {
   background: #D3D3D3;
 }
-.product-teaser::-webkit-scrollbar-thumb {
+section.product-teaser::-webkit-scrollbar-thumb {
   background: var(--oxford-blue-354e57);
   opacity: 0.9;
 }
-.product-teaser::-webkit-scrollbar-thumb:hover {
+section.product-teaser::-webkit-scrollbar-thumb:hover {
   background: var(--oxford-blue-354e57);
   opacity: 1;
 }
