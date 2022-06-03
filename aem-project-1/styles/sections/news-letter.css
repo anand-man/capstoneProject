@@ -77,10 +77,6 @@ section.news-letter{
   .news-letter p{
     padding-bottom: 40px;
   }
-  .news-letter .input-box{
-    border-left: none;
-    border-right: 1px solid;
-  }
   .news-letter button{
     border-left: none;
     border-right: 1px solid;
