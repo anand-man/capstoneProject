@@ -39,7 +39,6 @@
 .hero-banner p, .hero-banner h1{
   color: var(--oxford-blue-354e57);
 }
-
 .hero-banner .column-wrapper{
   display: flex;
   width: 100%;
@@ -50,7 +49,6 @@
 
 .hero-banner .content-wrapper {
   width: 50%;
-  /* padding-left: 55px; */
   max-width: 441px;
   position: relative;
   z-index: 1;
@@ -84,9 +82,6 @@
   .hero-banner .inner-wrapper{
     max-width: 490px;
   }
-  /* .hero-banner .content-wrapper{
-    padding-left: 40px;
-  } */
 }
 
 @media screen and (max-width: 991px) {

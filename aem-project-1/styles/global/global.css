@@ -11,10 +11,13 @@
   font-size: var(--font-size-32);
   line-height: var(--line-spacing-38);
 }
-
+.heading-5 {
+  font-size: var(--font-size-18);
+  line-height: var(--line-spacing-24);
+}
 .heading-4 {
   font-size: var(--font-size-28);
-  line-height: var(--line-spacing-30);
+  line-height: var(--line-spacing-34);
 }
 
 .heading-6{
@@ -41,7 +44,6 @@
 .bg-deep-sky{
   background-color: var(--deep-sky-e0e3e8);
 }
-
 .bg-como-547665{
   background-color: var(--como-547665);
 }
@@ -50,4 +52,53 @@
 }
 .bg-white{
   background-color: var(--white-ffffff);
+}
+.bg-f7f7f7f {
+  background-color: var(--alabasterr-f7f7f7);
+}
+.bg-silver-rust{
+  background-color: var(--silver-rust-c6b9b6);
+}
+.bg-oxford-blue{
+  background-color: var(--oxford-blue-354e57);
+}
+.body-text-black{
+  color: #000000 !important;
+}
+
+.padding-0{
+  padding: 0;
+}
+.padding-top-60{
+  padding-top: 60px;
+}
+.padding-top-80{
+  padding-top: 80px;
+}
+.padding-bottom-60{
+  padding-bottom: 60px;
+}
+.padding-top-80{
+  padding-top: 80px;
+}
+.padding-top-120{
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-top-60{
+    padding-top: 20px;
+  }
+  .padding-bottom-60{
+    padding-bottom: 20px;
+  }
+  .padding-bottom-80{
+    padding-bottom: 20px;
+  }
+  .padding-top-80{
+    padding-top: 20px;
+  }
+  .padding-top-120{
+    padding-top: 20px;
+  }
 }

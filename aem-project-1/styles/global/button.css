@@ -22,6 +22,11 @@
   color: var(--black-000000);
 }
 
+.btn-default.btn-light-black{
+  border-color: var(--light-palliser-956a53);
+  color: var(--rangitoto-2e2e22);
+}
+
 .btn-with-icon {
   position: relative;
   display: inline-block;
@@ -50,4 +55,5 @@
   left: -16px;
   top: 0;
   background: url("../../images/cart-outline.svg") no-repeat;
+  transition: all ease-out 0.3s;
 }

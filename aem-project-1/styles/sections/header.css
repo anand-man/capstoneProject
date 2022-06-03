@@ -85,13 +85,11 @@
   width: 10px;
   cursor: pointer;
 }
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .header .center-menu .product-name ul li{
-    margin-right: 20px;
+    margin-right: 12px;
   }
 }
-
 @media screen and (max-width:991px ){
   .menu-mobile{
     overflow: hidden;
@@ -153,7 +151,6 @@
   .header .column-wrapper.active .mobile-menu .close svg, .header .mobile-menu .bar-wrapper svg{
     margin-right: 10px;
   }
-
   .header .column-wrapper.active .mobile-menu .bar-wrapper, .header .col-three ul li:last-child{
     display: none;
   }
@@ -192,8 +189,7 @@
     top: 5px;
     right: 0;
     z-index: 1111;
-  }
-  
+  } 
 .header .center-menu .product-name{
   display: block;
   margin-top: 130px;
