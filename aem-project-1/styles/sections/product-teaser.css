@@ -31,11 +31,11 @@
 }
 .product-teaser .text-wrapper p{
   font-size: var(--font-size-12);
-  font-weight: bold;
   line-height: 16px;
   padding: 3px 0 0;
 }
 .product-teaser .text-wrapper p.product-price{
+  font-weight: bold;
   line-height: 15px;
   padding-top: 9px;
 }

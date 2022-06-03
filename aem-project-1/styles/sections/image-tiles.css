@@ -38,6 +38,32 @@
   font-size: var(--font-size-12);
   padding-top: 12px;
 }
+.image-tiles .card .img-wrapper span{
+  display: none;
+}
+.image-tiles .card .img-wrapper{
+  height: 222px;
+  width: 100%;
+  max-width: 267px;
+  margin: auto;
+  background: url("../../images/Sooth_home/transparent-ingredients.png") no-repeat;
+}
+.image-tiles .card .img-wrapper.cacao {
+  background-position: 14px -533px;
+}
+.image-tiles .card .img-wrapper.honey {
+  background-position: -303px -521px;
+}
+.image-tiles .card .img-wrapper.mint {
+  background-position: -314px 0;
+}
+.image-tiles .card .img-wrapper.coconut-root {
+  background-position: 14px -812px;
+}
+.image-tiles .card .img-wrapper.flour {
+  background-position: -298px -810px;
+}
+
 
 @media screen and (max-width: 768px) {
   .image-tiles{
