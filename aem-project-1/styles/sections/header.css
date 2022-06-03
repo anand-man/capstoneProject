@@ -1,5 +1,5 @@
 /* Header */
-.header {
+header.header {
   padding: 44px 0 20px;
 }
 .header .container{
@@ -102,6 +102,9 @@
   }
 }
 @media screen and (max-width:991px ){
+  header.header {
+    padding: 20px 0;
+  }
   .menu-mobile{
     overflow: hidden;
   }
@@ -115,9 +118,6 @@
     overflow: hidden;
     overflow-y: scroll;
     z-index: 1111;
-  }
-  .header {
-    padding: 20px 0;
   }
 .header.header.fixed .column-wrapper{
   padding-bottom: 10px;

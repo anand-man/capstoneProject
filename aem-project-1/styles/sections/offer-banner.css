@@ -1,6 +1,6 @@
 /* Offer Banner */
 
-.offer-banner{
+section.offer-banner{
   background-color: var(--cape-palliser-a67744);
   padding: 0;
 }

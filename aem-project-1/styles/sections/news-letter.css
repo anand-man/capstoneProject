@@ -1,4 +1,4 @@
-.news-letter{
+section.news-letter{
   padding: 35px 0;
   border: 1px solid var(--oxford-blue-354e57);
 }
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 768px){
-  .news-letter{
+  section.news-letter{
     padding: 70px 0;
   }
   .news-letter h3{
@@ -76,6 +76,10 @@
   }
   .news-letter p{
     padding-bottom: 40px;
+  }
+  .news-letter .input-box{
+    border-left: none;
+    border-right: 1px solid;
   }
   .news-letter button{
     border-left: none;
