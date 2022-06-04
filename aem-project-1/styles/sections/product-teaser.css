@@ -88,7 +88,6 @@
 .product-teaser.full-width-scroll .cards .img-wrapper img {
   object-position: initial;
 }
-
 section.product-teaser::-webkit-scrollbar {
   width: 5px;
   height: 3px;
@@ -150,7 +149,6 @@ section.product-teaser::-webkit-scrollbar-thumb:hover {
     margin-right: 20px;
   }
 }
-
 @media screen and (max-width: 767px){
   .product-teaser .content-wrapper{
     margin-top: 13px;
