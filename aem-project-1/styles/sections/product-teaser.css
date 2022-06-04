@@ -94,7 +94,7 @@ section.product-teaser::-webkit-scrollbar {
 }
 section.product-teaser::-webkit-scrollbar-track {
   background: #D3D3D3;
-  marging: 0 20px;
+  margin: 0 20px;
 }
 section.product-teaser::-webkit-scrollbar-thumb {
   background: var(--oxford-blue-354e57);
@@ -145,7 +145,7 @@ section.product-teaser::-webkit-scrollbar-thumb:hover {
     margin-right: 28px;
     float: right !important;
   }
-   .product-teaser.full-width-scroll .cards:last-of-child{
+   .product-teaser.full-width-scroll .cards:last-of-type{
     margin-right: 20px;
   }
 }
@@ -187,4 +187,3 @@ section.product-teaser::-webkit-scrollbar-thumb:hover {
     display: none;
   }
 }
-
