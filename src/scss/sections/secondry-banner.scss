@@ -1,0 +1,25 @@
+@import "../common/variables";
+
+section{
+  &.secondry-banner{
+    border: 1px solid $como-547665;
+    .content-wrapper{
+      text-align: center;
+      max-width: 100%;
+      margin: auto;
+      @include tablet-down{
+        margin: 20px auto;
+        padding: 10px 50px;
+      }
+    }
+    h4, p{
+      color: $oxford-blue-354e57;
+      line-height: 20px;
+    }
+    h4{
+      font-weight: bold;
+      margin-bottom: 10px;
+      line-height: $line-spacing-34;
+    }
+  }
+}

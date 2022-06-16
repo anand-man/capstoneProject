@@ -1,0 +1,82 @@
+@import "../common/variables";
+
+section {
+  &.image-tiles{
+    padding-bottom: 110px;
+    @include tablet-down{
+      padding: 101px 0 50px;
+    }
+    h4, h6, p{
+      color: $oxford-blue-354e57;
+    }
+    h4, h6{
+      font-weight: bold;
+    }
+    .title-dec{
+      max-width: 537px;
+      margin: auto;
+      text-align: center;
+      padding-bottom: 59px;
+      @include tablet-down{
+        padding-bottom: 65px;
+      }
+      h4{
+        padding-bottom: 12px;
+        @include tablet-down{
+          padding-bottom: 30px;
+        }
+      }
+      p{
+        font-size: $font-size-16;
+        line-height: $line-spacing-24;
+      }
+    }
+    .column-wrapper{
+      display: flex;
+      width: 100%;
+      max-width: 912px;
+      margin: auto;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card{
+      width: 33.33%;
+      text-align: center;
+      margin-bottom: 80px;
+      @include tablet-down{
+        width: 100%;
+        margin-bottom: 60px;
+      }
+      p{
+        font-size: $font-size-12;
+        padding-top: 12px;
+      }
+      .img-wrapper{
+        height: 222px;
+        width: 100%;
+        max-width: 267px;
+        margin: auto;
+        background: url("../../images/Sooth_home/transparent-ingredients.png") no-repeat;
+        span{
+          display: none;
+        }
+        &.cacao {
+          background-position: 14px -533px;
+        }
+        &.honey {
+          background-position: -303px -521px;
+        }
+        &.mint {
+          background-position: -314px 0;
+        }
+        &.coconut-root {
+          background-position: 14px -812px;
+        }
+        &.flour {
+          background-position: -298px -810px;
+        }
+      } 
+    }
+  }
+}

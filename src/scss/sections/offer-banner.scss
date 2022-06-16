@@ -1,0 +1,17 @@
+@import "../common/variables";
+
+section{
+  &.offer-banner{
+    background-color: $cape-palliser-a67744;
+    padding: 0;
+
+    p{
+      color: $beige-f7f5e6;
+      padding: 10px 0;
+      text-align: center;
+      @include tablet-down{
+        font-size: $font-size-14;
+      }
+    }
+  }
+}

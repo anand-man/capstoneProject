@@ -1,0 +1,84 @@
+@import "./common/font-face";
+@import "./common/variables";
+@import "./common/global";
+@import "./common/buttons";
+@import "./common/aem-grid";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .container {
+    max-width: 1130px;
+    padding: 0 20px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+  section{
+    padding: 40px 0;
+  }
+  
+  .wrapper {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-box {
+    width: calc(100% - 130px);
+    height: 38px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid;
+  }
+  .input-wrapper{
+    label{
+      display: none;
+    }
+  }
+  
+   
+  @include tablet-down {
+    section{
+      padding: 20px 0;
+    }
+  }
+  body{
+    &.menu-mobile{
+      @include desktop-down{
+        overflow: hidden;
+      }
+      .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $light-sky-eef3f4;
+        overflow: hidden;
+        overflow-y: scroll;
+        z-index: 1111;
+      }
+    }
+  
+  }

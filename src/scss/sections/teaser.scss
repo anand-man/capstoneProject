@@ -1,0 +1,112 @@
+@import "../common/variables";
+
+section{
+  &.teaser{
+    position: relative;
+    .bg-img{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      .bg-with-color{
+        width: 50%;
+      }
+      .img-wrapper{
+        width: 50%;
+        height: 731px;
+        overflow: hidden;
+        @include desktop{
+          height: 600px;
+        }
+        @include desktop-down{
+          width: 100%;
+          height: 563px;
+        }
+        img{
+          position: relative;
+          bottom: 30%;
+          @include desktop{
+            position: initial;
+            object-fit: none;
+            width: 100%;
+          }
+          @include desktop-down{
+            bottom: 21%;
+            right: 5%;
+            width: 154%;
+          }
+          @include tablet{
+            bottom: 67%;
+            right: 0;
+            width: auto;
+          }
+        }
+      }
+    }
+    .inner-wrapper{
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      z-index: 1;
+      @include desktop-down{
+        position: initial;
+        transform: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: centera;
+        height: 563px;
+      }
+    }
+    .content-wrapper{
+      max-width: 465px;
+      @include desktop-down{
+        max-width: 100%;
+        height: 100%;
+      }
+      h2{
+        color: $white-ffffff;
+        font-weight: bold;
+        margin-bottom: 23px;
+      }
+      p{
+        color: $athens-gray-eef2f4;
+        line-height: 24px;
+        margin-bottom: 55px;
+      }
+    }
+    &.img-left {
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      .column-wrapper{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+      }
+      .bg-img{
+        justify-content: flex-start;
+      }
+      .content-wrapper p{
+        color: $rangitoto-2e2e22;
+      }
+      .img-wrapper {
+        img{
+          bottom: 55%;
+          width: 154%;
+          @include desktop-down{
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+}

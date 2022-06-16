@@ -1,0 +1,188 @@
+@import "../common/variables";
+
+footer {
+  &.footer{
+    padding: 167px 0 116px;
+    @include desktop-down{
+      padding: 84px 0 139px;
+    }
+    .column-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+    }
+    a{
+      text-decoration: none;
+      color: $white-ffffff;
+    }
+    p, h2{
+      color: $white-ffffff;
+    }
+    p{
+      font-size: $font-size-16;
+    }
+    h2{
+      font-size: $font-size-54;
+      margin: 0 0 20px;
+    }
+    .footer-menu-wrapper {
+      padding: 0 0 97px;
+      margin: 0 0 44px;
+      border-bottom: 0.5px solid $beige-f7f5e6;
+      @include desktop-down{
+        padding: 0 0 37px;
+        .column-wrapper{
+          flex-direction: column-reverse;
+          justify-content: flex-start;
+        }
+      }
+      .col-four{
+        width: 33.9%;
+        @include desktop-down{
+          width: 100%;
+          padding: 55px 0 0;
+        }
+      }
+      .col-six{
+        display: flex;
+        flex-wrap: wrap;
+        width: 47%;
+        justify-content: flex-start;
+        @include desktop-down{
+          justify-content: space-between;
+          width: 100%;
+          li{
+            &:last-of-type a{
+              margin: 0;
+            }
+          }
+        }
+        @include phone-small{
+          a{
+            margin: 0 22px 18px 0;
+          }
+        }
+      }
+      .footer-menu{
+        padding: 0 107px 0 0;
+        @include desktop{
+          padding: 0 60px 0 0;
+        }
+        @include desktop-down{
+          width: 50%;
+          padding: 0 25px 0 0;      
+        }
+        p{
+          font-weight: 600;
+        }
+        &:last-of-type{
+          padding: 0;
+        }
+      } 
+      ul{
+        padding: 22px 0 0;
+      }
+      li a{
+        font-size: $font-size-14;
+        line-height: $line-spacing-17;
+        display: inline-block;
+        margin: 5px 0;
+      }
+      .input-wrapper{
+        @include desktop-down{
+          max-width: 336px;
+        }
+      }
+    }
+    .input-wrapper{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 55px 0 0;
+      border: 1px solid $white-ffffff;
+      input{
+        width: calc(100% - 117px);
+        color: $white-ffffff;
+        font-size: $font-size-16;
+        border: none;
+        background: transparent;
+      }
+      button{
+        color: $white-ffffff;
+        width: 117px;
+        height: 38px;
+        border: none;
+        border-left: 1px solid $white-ffffff;
+        background: transparent;
+        cursor: pointer;
+        transition: all ease-out 0.3s;
+        &:hover{
+          color: $black-000000;
+          background-color: $white-ffffff;
+        }
+      }
+    }
+    .footer-policy-wrapper {
+      .col-six {
+        @include desktop-down{
+          width: 100%;
+        }
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 18px 0 0;
+        }
+        a{
+          margin: 0 83px 0 0;
+          @include desktop-down{
+            margin: 0 22px 0 0;
+          }
+        }
+      }
+      li {
+        a {
+          text-decoration: underline;
+          display: inline-block;
+          font-size: $font-size-16;
+          &.facebook{
+            background: url("../../images/logo-facebook.svg") no-repeat;
+          }
+          &.twitter{
+            background: url("../../images/logo-twitter.svg") no-repeat;
+          }
+          &.instagram{
+            background: url("../../images/logo-instagram.svg") no-repeat;
+          }
+          &.youtube{
+            background: url("../../images/logo-youtube.svg") no-repeat;
+          }
+        }
+        &:last-of-type{
+          a{
+            margin-right: 0;
+          }
+        }
+      }
+      .col-four{
+        @include desktop-down{
+          width: 100%;
+        }
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 18px 0 0;
+        }
+        a{
+          width: 28px;
+          height: 28px;
+          margin: 0 34px 0 0;
+          span{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
