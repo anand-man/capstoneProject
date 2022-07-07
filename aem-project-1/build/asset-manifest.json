@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/capstoneProject/static/css/main.8bc40a38.css",
+    "main.js": "/capstoneProject/static/js/main.c7d0d860.js",
+    "static/js/787.fa3c4679.chunk.js": "/capstoneProject/static/js/787.fa3c4679.chunk.js",
+    "static/media/sliders.svg": "/capstoneProject/static/media/sliders.07a0e59562aded129aac.svg",
+    "static/media/sunrise.svg": "/capstoneProject/static/media/sunrise.8a841b3b95440611e10b.svg",
+    "static/media/smile.svg": "/capstoneProject/static/media/smile.c5b1ab9d10d2f5f519a9.svg",
+    "static/media/trash-2.svg": "/capstoneProject/static/media/trash-2.42240970dae2f7577569.svg",
+    "index.html": "/capstoneProject/index.html",
+    "static/media/logo-instagram.svg": "/capstoneProject/static/media/logo-instagram.f7483e2a7dff4c35e514.svg",
+    "static/media/cross.svg": "/capstoneProject/static/media/cross.18ffa5a5f6cf0611910c.svg",
+    "static/media/arrow-down.svg": "/capstoneProject/static/media/arrow-down.14a98747d54c444aae04.svg",
+    "static/media/arrow-up.svg": "/capstoneProject/static/media/arrow-up.338d97b79a6b35ea4cfe.svg",
+    "static/media/logo-twitter.svg": "/capstoneProject/static/media/logo-twitter.3d9f31115be6b897b5d4.svg",
+    "static/media/heart.svg": "/capstoneProject/static/media/heart.3b35352339d37da7c50b.svg",
+    "static/media/star.svg": "/capstoneProject/static/media/star.fe394c89bc9d30f8ba87.svg",
+    "static/media/edit-2.svg": "/capstoneProject/static/media/edit-2.d788d68fd7e2875db7c4.svg",
+    "static/media/logo-facebook.svg": "/capstoneProject/static/media/logo-facebook.b5b54c5572636785078a.svg",
+    "static/media/chevron-down.svg": "/capstoneProject/static/media/chevron-down.c0c85f0327c8b7a8c6de.svg",
+    "static/media/check-white.svg": "/capstoneProject/static/media/check-white.686a133c8c247b95c663.svg",
+    "static/media/check.svg": "/capstoneProject/static/media/check.ffd4d9f896701562a4cb.svg",
+    "main.8bc40a38.css.map": "/capstoneProject/static/css/main.8bc40a38.css.map",
+    "main.c7d0d860.js.map": "/capstoneProject/static/js/main.c7d0d860.js.map",
+    "787.fa3c4679.chunk.js.map": "/capstoneProject/static/js/787.fa3c4679.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bc40a38.css",
+    "static/js/main.c7d0d860.js"
+  ]
+}
